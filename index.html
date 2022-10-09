@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juego</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2dea8ec647.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="text-input">
+                <textarea id="from-text" placeholder="Introduce el texto"></textarea>
+                <textarea class="to-text" placeholder="Traducción" readonly disabled></textarea>
+            </div>
+            <ul class="controls">
+                <li class="row from">
+                    
+                    <select>
+                        <option value="en-US">English</option>
+                        <option value="es-ES">Spanish</option>
+                    </select>
+                </li>
+                <li class="exchange"><i class="fas fa-exchange-alt"></i>
+                    <li class="row to">
+                    <select>
+                        <option value="en-US">English</option>
+                        <option value="es-ES">Spanish</option>
+                    </select>
+                    
+                    
+                </li>
+            </ul>
+        </div>
+        <button>Traducir texto</button>
+    </div>
+
+    <script src="javascript/paises.js"></script>
+
+    <script src="javascript/script.js"></script>
+    
+</body>
+</html>
